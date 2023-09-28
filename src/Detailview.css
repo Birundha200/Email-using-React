@@ -1,0 +1,218 @@
+
+
+.detail-content{
+    width:93%;
+    padding:2%;
+}
+
+.delete{
+    width:5%;
+    height:40px;
+    margin-left:10px; 
+}
+.paragraph{
+  width:30%;
+}
+.detailviewcontainer{
+    width:100%;
+    display:flex;
+}
+.detail-image{
+    width:10%;
+    height:15%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.detaildate {
+    text-align: right;
+    font-size: 14px;
+    color: #888;
+    width:60%;
+  }
+.messagebodyy{
+   margin-bottom:3%;
+   word-spacing: 2px;
+   letter-spacing:0.5px;
+
+}
+.from{
+   width:40%;
+}
+
+.messagee{
+    font-weight:bold;
+    margin-bottom:5px;
+    text-decoration:underline;
+    text-transform: capitalize;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(Poppins-Regular.ttf);
+ }
+ 
+ * {
+    font-family: myFirstFont;
+ }
+ .selectedimage{
+    display:flex;
+    background-color:aliceblue;
+    margin:1%;
+    border-radius:20px;
+    
+ }
+ .imageiconfordetailview{
+    width:4%;
+    height:3%;
+    margin:1px;
+    border-radius: 10%;
+    object-fit: cover;
+    padding-left:1%;
+    padding:1%;
+   }
+   .attachments{
+    font-weight:bolder;
+    font-size:16px;
+    color:blue;
+   }
+   .image-modal {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+.image-modal {
+    position: relative;
+    display: inline-block;
+    margin:22px 0px 0px 28% ;
+    text-align: center;
+    overflow: hidden;
+}
+@media (min-width:200px) and (max-width:550px){
+    .image-modal{
+        margin:22px 0px 0px 6%;
+    }
+   
+    .imageiconfordetailview{
+        width:15%;
+        padding:1%  
+    }
+   
+}
+
+@media (width:540px){
+    .image-modal{
+        margin:22px 0px 0px 15%;
+    }
+}
+
+.closeforopenimageindetail {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+    width: 30px;
+}
+
+.closeforopenimageindetail:hover {
+    background-color: red;
+}
+
+.image-modal img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+@media (max-width:600px){
+    .detailviewcontainer{
+        width:100%;
+        display:inline;
+    }
+    .detail-image{
+        width:30%;
+    }
+    .delete{
+        width:20%;
+        margin-left:0px; 
+    }
+    .detaildate{
+        width:52%;    
+    }
+    .from{
+        width:100%
+    }
+    .imageiconfordetailview{
+        padding:1%;
+        margin:2%
+    }
+}
+@media (width:375px){
+    .detaildate{
+        width:56%
+    }
+}
+@media (width:390px)or (width:393px) {
+    .detaildate{
+       width:54%
+    }
+}
+@media (width:360px){
+    .detaildate{
+        width:58%
+    }
+}
+@media (width:540px){
+    .detaildate{
+        width:40%
+    }
+    .delete{
+        margin:-15px;
+    }
+    .imageiconfordetailview{
+        width:10%
+    }
+}
+@media (width:280px){
+    .detaildate{
+        width:76%
+    }
+}
+@media (width:768px){
+    .imageiconfordetailview{
+        width:7%;
+        padding:1%;
+        margin:1%;
+    } 
+    .delete{
+        width:9%;
+    }
+}
+@media (width:820px){
+    .imageiconfordetailview{
+        width:7%;
+        padding:1%;
+        margin:1%;
+    } 
+    .delete{
+        width:9%;
+    }
+}
+@media (width:912px){
+    .imageiconfordetailview{
+        width:7%;
+        padding:1%;
+        margin:1%;
+    } 
+    .delete{
+        width:9%;
+    }
+}

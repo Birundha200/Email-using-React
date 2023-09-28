@@ -1,0 +1,174 @@
+
+.wholepage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 98%;
+  margin: 10px;
+}
+.imagePlace {
+  width: 78%;
+  padding: 10px;
+  max-height: 100%;
+}
+
+.sampleimagee {
+  width: 150px;
+  height: 100px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  margin: 5px;
+}
+
+.Attach-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.attach {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+  font-weight: bold;
+}
+
+.cancel {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  color: #007bff;
+  font-weight: bold;
+  border: 1px solid #007bff;
+ 
+}
+
+.attach:hover {
+  background-color: #0056b3;
+}
+
+.cancel:hover {
+  background-color: lightgray;
+}
+
+.library {
+  text-align: center;
+  font-weight: bold;
+  color: gray;
+  font-size: 20px;
+}
+
+.imagee {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.closee {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.flex-items-centerr {
+  display: flex;
+  width: 100%;
+}
+
+.paraa {
+  width: 80%;
+}
+
+.headerr {
+  text-align: center;
+  color: gray;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 20px;
+  flex: 1;
+}
+
+@media (max-width: 600px) {
+  .paraa {
+    width: 65%;
+  }
+}
+
+@media (max-width: 570px) {
+  .Attach-buttons {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.backage {
+  display: flex;
+  margin: 5px;
+}
+
+.backinimagepage {
+  width: 20px;
+  height: 20px;
+}
+
+.checkmarkiconimage {
+  width:20px;
+  height:20px
+}
+
+.image-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.image.containerrrr{
+  position:relative;
+}
+.selected-image {
+  position: relative;
+}
+
+.checkmarkiconimage {
+  position: absolute;
+  top: 5px; 
+  right: 5px; 
+  z-index: 1;
+  width:20px;
+  height:20px
+}
+@media (max-width:600px){
+  .sampleimagee{
+    width:54px;
+    height:58px
+  }
+}
+@media (width:820px){
+  .sampleimagee{
+    width:134px;
+    height:118px
+  }
+}
+@media (width:768px){
+  .sampleimagee{
+    width:124px;
+    height:147px
+  }
+}
+@media (width:360px){
+  .sampleimagee{
+    width:84px;
+    height:60px;
+  }
+}

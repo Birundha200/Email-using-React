@@ -1,0 +1,7 @@
+<svg id="Icon" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Oval" fill="#1198ed" stroke="#1198ed" stroke-width="2">
+    <circle cx="30" cy="30" r="30" stroke="none"/>
+    <circle cx="30" cy="30" r="29" fill="none"/>
+  </g>
+  <path id="Shape" d="M23.149,11.507,12.2,22.451A7.149,7.149,0,0,1,2.094,12.341L13.039,1.4a4.766,4.766,0,0,1,6.741,6.741L8.823,19.081a2.383,2.383,0,0,1-3.37-3.37l10.111-10.1" transform="translate(18.295 17.727)" fill="#fff" stroke="#1198ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+</svg>

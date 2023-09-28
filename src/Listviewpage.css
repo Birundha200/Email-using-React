@@ -1,0 +1,191 @@
+.container {
+  width: 70%;
+  margin:10px auto;
+  padding:10px;
+  font-family:poppins;
+  border-radius:5px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width:97%;
+  margin:5px;
+  padding:5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+  font-size:14px;
+}
+
+.image-containers {
+  margin-right:10px;
+  display:flex;
+}
+
+.photo {
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+.content {
+  flex: 1;
+}
+.name {
+  font-size:normal;
+  font-weight: bold;
+}
+.message {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp:1; 
+  -webkit-box-orient: vertical;
+  white-space: normal;
+  width:100%;
+}
+
+.date {
+  text-align: right;
+  font-size:9px;
+  color: #888;
+}
+.header{
+  text-align:center;
+  color:gray;
+  flex:1;
+  font-weight:bold;
+
+}
+.unreadiconContainer{
+  width:10px
+}
+
+.compose-button {
+    padding:5px;
+    font-size:100%;
+    border-radius:10px;
+    width:15%;
+    background-color:white;
+    border:2px solid silver;
+    color:grey;
+    font-weight:bold;
+    margin:10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+} 
+
+.pencil{
+  height:20px;
+}
+.back-for-listviewpage{
+  width:20px;
+  height:20px;
+}
+.back{
+  display:flex;
+  margin:5px;
+}
+.unread-icon {
+width:20px;
+height:20px;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(Poppins-Regular.ttf);
+}
+
+* {
+  font-family: myFirstFont;
+}
+@media (width:912px){
+  .card{
+    font-size:20px;
+  }
+  .date{
+    font-size:18px;
+  }
+}
+@media (width:280px){
+  .card{
+    width:100%
+  }
+  .date{
+    font-size:8px;
+  }
+}
+@media (width:820px)or (width:768px){
+  .date{
+    font-size:14px;
+  }
+}
+@media (width:360px){
+  .date{
+    font-size:8px;
+  }
+  .card{
+    padding-right:10px;
+  }
+}
+@media (min-width:1000px){
+  .compose-button{
+    width:20%;
+  }
+  .date{
+    font-size:14px;
+  }
+}
+.attachediconcontainer{
+  width:10%;
+}
+@media (min-width:700px){
+  .attachediconcontainer{
+    width:5.2%;
+  }
+}
+@media (max-width:600px){
+  .card{
+    width:94%;
+  }
+}
+@media (min-width:150px){
+  .card{
+    width:95%;
+  }
+}
+@media (max-width:600px){
+  .compose-button{
+    width:40%;
+  }
+}
+@media (max-width:1000px){
+  .compose-button{
+    width: 30%;
+    font-size:18px;
+  }
+  .card{
+    font-size:17px;
+  }
+
+}
+@media (min-width:250px) and (max-width:550px){
+  .compose-button{
+    width:60%;
+  }
+  .card{
+    font-size:13px;
+  }
+}
+@media (width:280px){
+  .card{
+     font-size:7.5px;
+  }
+  .date{
+    font-size: 10px;
+  }
+  .compose-button{
+    font-size:10px;
+  }
+}
